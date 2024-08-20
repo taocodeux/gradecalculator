@@ -14,4 +14,7 @@ function checkResult(){
     else if (myPercentage >= 80 && myPercentage <= 100){
         result.innerHTML = "A - Excellent &#x1F603";
         }
+    else if(myPercentage >100){
+        alert("grade cannot be greater than 100")
+    }
    }
